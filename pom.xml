@@ -42,10 +42,8 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-		</plugins>
-	</build>
 
-<plugin>
+		<plugin>
    			 <groupId>org.jacoco</groupId>
    			 <artifactId>jacoco-maven-plugin</artifactId>
    			 <version>0.8.3</version>
@@ -64,6 +62,8 @@
    				 </goals>
    			 	</execution>       	 
    			 </executions>
-   		 </plugin>
-</project>
+		 </plugin>
+	 </plugins>
+	 </build>
+	 </project>
 
